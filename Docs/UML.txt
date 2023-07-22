@@ -1,0 +1,20 @@
++--------------------------------+
+|      PasswordsGenerator         |
++--------------------------------+
+| - length: int                  |
+| - count: int                   |
+| - includeUpper: boolean        |
+| - includeLower: boolean        |
+| - includeNumbers: boolean      |
+| - includeSymbol: boolean       |
+| - includePIN: boolean          |
++--------------------------------+
+| + SetLength(length: int): void |
+| + SetCount(count: int): void   |
+| + SetUpper(include: boolean): void |
+| + SetLower(include: boolean): void |
+| + SetNumbers(include: boolean): void |
+| + SetSymbol(include: boolean): void |
+| + SetPIN(include: boolean): void |
+| + GeneratePasswords(): string[] |
++--------------------------------+

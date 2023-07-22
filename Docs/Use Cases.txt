@@ -1,0 +1,53 @@
+Generate Passwords:
+
+Description: The user wants to generate one or more random passwords based on their preferred length and complexity.
+Actors: User
+Preconditions: The Password Generator interface is open and accessible to the user.
+Postconditions: The Password Generator generates and displays the requested number of random passwords with the selected complexity on the user interface.
+Flow of Events:
+The user sets the desired password length using the "Password Length" input field.
+The user specifies the number of passwords they want to generate using the "Number of Passwords" input field.
+The user selects the complexity of the passwords by checking or unchecking the corresponding checkboxes for uppercase letters, lowercase letters, numbers, symbols, and PIN.
+The user clicks the "Generate Passwords" button.
+The Password Generator generates the random passwords based on the specified criteria and displays them in a list below the button.
+Copy Passwords to Clipboard:
+
+Description: The user wants to copy the generated passwords to their clipboard for easy use in other applications or websites.
+Actors: User
+Preconditions: The Password Generator has already generated passwords.
+Postconditions: The user successfully copies the generated passwords to their clipboard.
+Flow of Events:
+The user clicks the "Copy to Clipboard" button.
+The Password Generator copies the generated passwords to the clipboard.
+An alert message confirms that the passwords have been copied successfully.
+Change Password Parameters:
+
+Description: The user wants to customize the password generation parameters to match their specific requirements.
+Actors: User
+Preconditions: The Password Generator interface is open and accessible to the user.
+Postconditions: The Password Generator updates the password generation parameters based on the user's selections.
+Flow of Events:
+The user sets the desired password length using the "Password Length" input field.
+The user specifies the number of passwords they want to generate using the "Number of Passwords" input field.
+The user selects or deselects the checkboxes for uppercase letters, lowercase letters, numbers, symbols, and PIN to include or exclude specific character types in the passwords.
+View Password Format Options:
+
+Description: The user wants to explore the available password format options to understand the composition of the generated passwords.
+Actors: User
+Preconditions: The Password Generator interface is open and accessible to the user.
+Postconditions: The user views the available password format options in a dropdown list.
+Flow of Events:
+The user clicks on the dropdown list for password format options.
+The available password format options (Alphanumeric, Letters Only, Numbers Only, Symbols Only) are displayed.
+View Password Generation Preview:
+
+Description: The user wants to preview how the generated passwords will look based on their current selections before actually generating them.
+Actors: User
+Preconditions: The Password Generator interface is open and accessible to the user.
+Postconditions: The user views a preview of how the generated passwords will appear based on their current selections.
+Flow of Events:
+The user sets the desired password length using the "Password Length" input field.
+The user specifies the number of passwords they want to generate using the "Number of Passwords" input field.
+The user selects or deselects the checkboxes for uppercase letters, lowercase letters, numbers, symbols, and PIN to include or exclude specific character types in the passwords.
+As the user makes selections, the Password Generator updates and displays a preview of how the generated passwords will look based on the current selections.
+These use cases cover the main interactions and functionalities provided by the Password Generator, enabling the user to generate secure and customized passwords for their needs.

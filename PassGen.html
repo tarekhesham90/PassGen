@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Generator</title>
+  <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+  <h1 class="text-center">Password Generator</h1>
+  <div class="form-group">
+    <label for="length" class="mr-4">Password Length:</label>
+    <input type="number" id="length" class="form-control" value="12" min="6" max="30">
+  </div>
+  <div class="form-group">
+    <label for="count" class="mr-4">Number of Passwords:</label>
+    <input type="number" id="count" class="form-control" value="1" min="1" max="10">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" id="upper" class="form-check-input" checked>
+    <label class="form-check-label mr-4" for="upper">Uppercase Letters</label>
+    <input type="checkbox" id="lower" class="form-check-input" checked>
+    <label class="form-check-label mr-4" for="lower">Lowercase Letters</label>
+    <input type="checkbox" id="numbers" class="form-check-input" checked>
+    <label class="form-check-label mr-4" for="numbers">Numbers</label>
+    <input type="checkbox" id="symbol" class="form-check-input" checked>
+    <label class="form-check-label mr-4" for="symbol">Symbols</label>
+    <input type="checkbox" id="pin" class="form-check-input">
+    <label class="form-check-label mr-4" for="pin">PIN</label>
+  </div>
+  <button id="generate-btn" class="btn btn-primary mt-3">Generate Passwords</button>
+  <button id="copy-btn" class="btn btn-success mt-3 ml-2">Copy to Clipboard</button>
+  <div id="generated-passwords" class="mt-3"></div>
+
+  <!-- Add Bootstrap and jQuery JavaScript links -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="passwordsGenerator.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
